@@ -1,0 +1,184 @@
+/*Lili & Allie*/
+html, body {
+  height: 100%;
+  margin: 0;
+    font-family: sans-serif;
+}
+
+ul.nav {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6699FF;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
+ul.nav a:hover{
+    background-color: #99CCFF;
+}
+
+li.nav {
+  float: left;
+  width: 400px;
+}
+
+li.nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 40px 20px;
+  text-decoration: none;
+  height: 20px;
+}
+
+li.nav a:hover:not(.active) {
+  background-color: #99CCFF;
+}
+
+li.navl {
+  float: left;
+  width: 100px;
+}
+
+li.navl a:hover:not(.active) {
+  background-color: #99CCFF;
+}
+
+.active {
+  background-color: #6699FF;
+  color: whitesmoke;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    background-color: #6699FF;
+
+}
+.content {
+  position: relative;
+  min-height: 100%;
+    padding: 2px;
+}
+.footer {
+  position:static;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #6699FF;
+    height: 500px;
+}
+#f{
+    position: relative;
+    left: -175px;
+  width: 33%; 
+  float: left;
+}
+
+
+#fpic{
+    position: relative;
+    left: 160px;
+    bottom: 230px;
+    float: right;
+    height: 400px;
+    width: auto;
+    border: 5px solid black;
+    
+}
+
+#wrapper{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* Allie */
+#Table, td, th{
+    border: solid 2px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+}
+
+#headcol{
+    background-color: #6699FF
+}
+
+#tablePic{
+    width: 100px;
+    height: auto;
+}
+
+#tablePicBot{
+    width: 100px;
+    height: auto;
+}
+
+#tablePic img:hover{
+    transform: scale(3);
+    position: relative;
+    left: 200px;
+}
+
+#tablePicBot img:hover{
+    transform: scale(3.5);
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}
+
+#employee{
+    float: left;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+#indi{
+    background-color: indigo;
+}
+
+#mage{
+    background-color: magenta;
+}
+
+#turq{
+    background-color: turquoise;
+}
+
+#char{
+    background-color: chartreuse;
+}
+
+div{
+    padding: 5px;
+    font-family: monotype corsiva;
+    font-size: 1.5em;
+}
+
+h1{
+    font-family: monotype corsiva;
+    font-size: 2.5em;
+    position: relative;
+    left: 180px;
+}
+
+.nav p{
+    font-size: 2.5em;
+    font-family: monotype corsiva;
+    position: relative;
+    top: -30px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+p{
+    margin: 5px;
+}

@@ -1,0 +1,12 @@
+/* Yo */
+#body{
+    margin: 5px;
+}
+textarea{
+    resize: none;
+}
+#Yo {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}

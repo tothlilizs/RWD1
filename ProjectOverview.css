@@ -1,0 +1,30 @@
+/* Luke */
+body {
+   background-color: whitesmoke;
+}
+
+#Table, td, th {
+    border-style: solid;
+    border-collapse: collapse;
+    align-content: center;
+    font-size: 1.2em;
+}
+
+tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+tr:nth-child(even) {
+    background-color:white;
+}
+
+/* Allie */
+#links{
+    color: black;
+    text-decoration: none;
+}
+
+#project{
+    position: relative;
+    left: 210px;
+}
